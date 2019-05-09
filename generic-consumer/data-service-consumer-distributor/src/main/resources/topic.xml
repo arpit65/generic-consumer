@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Topics>
+    <Topic name="n4_3_snapshot" kafkabroker="10.43.131.185:9092" maxrecords ="1000" type="json">
+        <ConsumerGroups>
+            <!-- consumer attribute should have value equal to or less than the value of topic partition -->
+            <ConsumerGroup name="n4consumergroup" consumer="16" ref="restConsumer"/>
+            <!--<ConsumerGroup name="n4consumergroup" consumer="16" ref="kafkaTransformationConsumer"/> -->
+        </ConsumerGroups>
+    </Topic>
+</Topics>

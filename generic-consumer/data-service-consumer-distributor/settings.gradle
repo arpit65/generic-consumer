@@ -1,0 +1,4 @@
+rootProject.name = 'data-service-consumer-distributor'
+
+include   ':kafka-consumer-framework'
+project(':kafka-consumer-framework').projectDir = new File(settingsDir, '../kafka-consumer-framework')

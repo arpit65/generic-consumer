@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+cat argo_facility.sql inv_wq.sql xps_craneshift.sql xps_pointofwork.sql inv_unit_yrd_visit.sql inv_wi.sql BusinessEntities/Work_Instruction/t1_inv_wi_fcy.sql BusinessEntities/Work_Instruction/t2_inv_wi_fcy_inv_wq.sql BusinessEntities/Work_Instruction/t3_inv_wi_fcy_inv_wq_qcshift.sql BusinessEntities/Work_Instruction/t4_inv_wi_fcy_inv_wq_qcshift_pow.sql BusinessEntities/Work_Instruction/t5_inv_wi_fcy_inv_wq_qcshift_pow_uyv.sql > wi.sql

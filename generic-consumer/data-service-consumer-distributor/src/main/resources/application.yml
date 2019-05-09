@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: data-service-consumer-distributor
+
+server:
+  port: 8300
+
